@@ -1,0 +1,151 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+nav {
+    height:50px;
+    width: 100%;
+
+}
+
+label.logo {
+    color: black;
+    font-size: 35px;
+    line-height:50px;
+    padding: 100px 0;
+    padding-left: 20px;
+    font-weight: 545;
+}
+
+nav ul {
+    float:right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 100px 0;
+    padding: 5px 0;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+
+}
+
+.button {
+    background-color: #4756DF;
+    color: white;
+    border: 1px solid #4756DF;
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.button:active {
+    background-color: white;
+    color: #4756DF;
+    border: 1px solid #4756DF;
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.button2 {
+    background-color: white;
+    color: #959090;
+    border: 1px solid #959090;
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.button2:active {
+    background-color: #959090;
+    color: white;
+    border: 1px solid #959090;
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.body {
+    float: left;
+    width:50%;
+}
+.body h1 {
+    font-size: 46px;
+    line-height: normal;
+    font-weight: 540;
+    margin-bottom: 5%;
+}
+
+.body p {
+    line-height: 25px;
+}
+
+aside {
+    display: inline-block;
+    float: right;
+    width: 50%;
+}
+
+.clr {
+    clear: both;
+}
+
+.block{
+    display: inline-block;
+    border-spacing: 20px;
+    width: 25%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 50%;
+    background: #F9F9F9;
+    margin: 7px;
+    margin-left: 5.5%;
+}
+
+.mainbody {
+	width: 80%;
+	margin: auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;   
+}
+
+aside div img {
+    height: 400px;
+    width: min-content;
+    margin-top: 40px;
+}
+
+.courses h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 549;
+}
+
+.course {
+    color: black;
+    font-weight: 550;
+}
+
+.block h2 {
+    font-weight: 549;
+}
